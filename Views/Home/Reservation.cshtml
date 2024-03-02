@@ -1,0 +1,99 @@
+﻿<main id="mainReservation">
+    <section id="reservation">
+        <div class="selectTheaterReservation">
+            <label> <strong>Please select a theater game:</strong></label>
+            <select id="theatersReservation">
+                <option value="45">Romeo & Juliet (45$)</option>
+                <option value="30">Julius Caesar (30$)</option>
+                <option value="50">Prometheus Bound (50$)</option>
+                <option value="20">Hamlet (20$)</option>
+                <option value="10">Private Lives (10$)</option>
+                <option value="30">Arcadia (30$)</option>
+            </select>
+
+
+            <br />
+            <br />
+            <label> <strong>Date:</strong></label>
+            <input type="date" name="date" size="10" />
+            <br />
+            <br />
+            <label> <strong>Please choose your seat number:</strong></label>
+            <select id="theatersReservation">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+
+            <div class="containerReservation">
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat "></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+            </div>
+        </div>
+        <a href=@Url.Action("Confirmation","Security")><button type="submit">Make Reservation</button>
+    </section>
+</main>
+
+<script src="~/Scripts/JSFiles/booking.js"></script>

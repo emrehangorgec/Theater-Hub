@@ -1,0 +1,18 @@
+﻿body {
+    background-image: linear-gradient(to right bottom, #dbc5bd, #c8b2a8, #b5a094, #a28e80, #8f7c6d);
+}
+
+
+.containerLogin {
+    text-align: center;
+}
+
+
+
+    .containerLogin h3 {
+        font-size: 30px;
+        padding: 5%;
+        color: #ffffffb9;
+        text-align: center;
+        text-shadow: 2px 2px 7px rgba(80, 11, 11, 0.8);
+    }

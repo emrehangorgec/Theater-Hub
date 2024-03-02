@@ -1,0 +1,140 @@
+body{
+    background-image: linear-gradient(to right bottom, #dbc5bd, #c8b2a8, #b5a094, #a28e80, #8f7c6d);
+    background-repeat: no-repeat; 
+}
+
+#mainTheater{
+    height: 1000px;
+}
+
+#sectionTheaters{
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    text-align: center; 
+    background-color: rgba(80, 11, 11, 0.8);
+    border-radius: 20px;
+}
+  
+.div1Theater{
+    background-color: #FFF8EA;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 10%;
+    border: #9E7676 3px solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div2Theater {
+    background-color: #FFF8EA;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    border: #9E7676 3px solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div3Theater {
+    background-color: #FFF8EA;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    border: #9E7676 3px solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div4Theater {
+    background-color: #FFF8EA;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    border-radius: 10%;
+    border: #9E7676 3px solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div5Theater {
+    background-color: #FFF8EA;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    border: #9E7676 3px solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.div6Theater {
+    background-color: #FFF8EA;
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 10%;
+    border: #9E7676 3px solid;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.div1Theater:hover {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.div2Theater:hover {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.div3Theater:hover {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.div4Theater:hover {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.div5Theater:hover {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.div6Theater:hover {
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+
+
+#rjTheater img {
+    height: 200px;
+    width: 350px;
+    margin-top: 10%;
+}
+
+#jsTheater img {
+    height: 200px;
+    width: 350px;
+    margin-top: 10%;
+}
+#pTheater img {
+    height: 200px;
+    width: 350px;
+    margin-top: 10%;
+}
+
+.theaters h3 , p{
+    margin-left: 1%;
+    color: black;
+}
+
+#hr1Theater {
+    width: 100%;
+    border-style: solid;
+    color: #9E7676;
+    border-width: 2px;
+}

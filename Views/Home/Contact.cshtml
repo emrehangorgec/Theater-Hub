@@ -1,0 +1,28 @@
+﻿@model TheaterReservationPage.Models.ContactModel
+
+
+@using (Html.BeginForm())
+{<main class="contactMain">
+        @Html.ValidationSummary()
+
+
+        <div class="container">
+            <h1 class="contactMaintitle">Contact Us</h1>
+            <div class="contactMainform">
+                <p>First Name          :@Html.TextBoxFor(x => x.FirstName)</p> <br />
+                <p>Last Name          :@Html.TextBoxFor(x => x.LastName)</p>   <br />
+                <p>E-Mail          :@Html.TextBoxFor(x => x.Email)</p>         <br />
+                <p>Gender          :</p> <br />
+                <p>Female @Html.RadioButton("Gender", "Female")</p>            <br />
+                <p>Male @Html.RadioButton("Gender", "Male")</p>                <br />
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+    <script src="~/Scripts/JSFiles/contactUs.js"></script>
+}

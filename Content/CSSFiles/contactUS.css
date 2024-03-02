@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(to right bottom, #dbc5bd, #c8b2a8, #b5a094, #a28e80, #8f7c6d);
+}
+
+
+.contactMain {
+    padding-top: 60px;
+}
+
+.contactMaintitle {
+    text-align: center;
+    font-size: 30px;
+    color: #2E4C6d;
+}
+
+.contactMainform {
+    width: 50%;
+    margin-left: 25%;
+}
+
+    .contactMainform label,
+    .contactMainform input:not([type="checkbox"]),
+    .contactMainform select {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contactMainform input[type="checkbox"],
+    .contactMainform input[type="checkbox"] + label {
+        display: inline-block;
+        width: auto;
+        margin-top: 15px;
+    }
+
+    .contactMainform button[type="submit"] {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .contactMainform input:not([type="checkbox"]),
+    .contactMainform select {
+        border: 1px solid #ccc;
+        padding: 10px 15px;
+    }
+
+        .contactMainform input:not([type="checkbox"]):focus,
+        .contactMainform select:focus {
+            outline: none;
+            background-color: #dbbda9;
+            border: 1px solid #5a4b40;
+        }
+
+#contact {
+    width: 100%;
+}
+
+.contactBtn {
+    color: #000000 !important;
+    border: 1px solid #5a4b40;
+    background: #ffffff;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50%;
+    padding-left: 50%;
+}
+
+    .contactBtn:hover {
+        color: #FFFFFF !important;
+        background: #dbbda9;
+    }

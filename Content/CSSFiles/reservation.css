@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to right bottom, #dbc5bd, #c8b2a8, #b5a094, #a28e80, #8f7c6d);
+}
+
+#mainReservation {
+    height: 700px;
+}
+
+.selectTheaterReservation {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+
+.selectTheaterReservation select {
+ background-color: #fff;
+ border-radius: 5px;       
+ font-size: 13px;       
+ margin-left: 10px;       
+ padding-left: 20px;
+ padding-top: 10px;
+ padding-bottom: 5px;
+ padding-right: 15px;
+ appearance: none;       
+}    
+
+#reservationP {
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    appearance: none;
+}
+.containerReservation {
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
+
+.seat {
+    background-color: #444451;
+    height: 26px;
+    width: 32px;
+    margin: 3px;
+    font-size: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+ .seat:nth-of-type(2) {
+        margin-right: 18px;
+}
+
+.seat:nth-last-of-type(2) {
+        margin-left: 18px;
+ }
+
+
+.row {
+    display: flex;
+}

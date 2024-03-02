@@ -1,0 +1,231 @@
+body{
+    background-image: linear-gradient(to right bottom, #dbc5bd, #c8b2a8, #b5a094, #a28e80, #8f7c6d); 
+}
+
+.divPartsEvent {
+    height: 300px;
+}
+.divPartsEvent2 {
+        height: 300px;
+    }
+.divPartsEvent3 {
+    height: 300px;
+}
+
+
+
+
+.calendarEvent {
+    float: left;
+    width: 49%;
+    margin-left: 1%;
+    border: #777 solid 1px;
+}
+#pinfoEvent {
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 46%;
+    animation: blinker 2s linear infinite;
+    float: left;
+    padding: 1%;
+    margin-left: 1%;
+    text-align: center;
+}
+@keyframes blinker {  
+      50% { 
+        opacity: 0; 
+        }
+      }
+
+.firstEvent img{
+    height: 250px;
+    width: 1423px;
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+}
+
+.month {
+    padding: 20px 25px;
+    width: 100%;
+    background: #8f7c6d;
+    text-align: center;
+    color: white;
+    height: 10%;
+}
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#8f7c6d;
+}
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: white;
+    text-align: center;
+}
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+.days li .free {
+    padding: 5px;
+    background:#5a4b40;
+    color: white !important
+}
+.days li .discount {
+    padding: 5px;
+    background:#a17249;
+    color: white !important
+}
+.days li .discountStd {
+    padding: 5px;
+    background:#dbbda9;
+    color: white !important
+}
+
+.EventsINFO{
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+.freeEvent{
+    height: 210px;
+    background-color: #5a4b40;
+    width: 33%;
+    float: left;
+    margin-left: 5.5px;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.discountEvent{
+    height: 210px;
+    background-color: #a17249;
+    width: 33%;
+    float: left;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.discountStdEvent{
+    height: 210px;
+    background-color: #dbbda9;
+    width: 33%;
+    float: left;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.freeEvent:hover{
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.discountEvent:hover{
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+.discountStdEvent:hover{
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+#h31Event {
+    color: #F96666;
+}
+#h32Event {
+    color: #FFE9A0;
+}
+#h33Event {
+    color: #628E90;
+}
+#p1Event {
+    color: #F96666;
+}
+#p2Event {
+    color: #FFE9A0;
+}
+#p3Event {
+    color: #628E90;
+}
+
+.buttonStyleEvent1{
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 2px 1px 2px #000000;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #F96666;
+    background:#F96666;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttonStyleEvent1:hover {
+        color: #FFFFFF !important;
+        background: #B7C4CF;
+ }
+.buttonStyleEvent2{
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 2px 1px 2px #000000;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #FFE9A0;
+    background:#FFE9A0;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttonStyleEvent2:hover {
+        color: #FFFFFF !important;
+        background: #B7C4CF;
+ }
+.buttonStyleEvent3{
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 2px 1px 2px #000000;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #628E90;
+    background:#628E90;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttonStyleEvent3:hover {
+        color: #FFFFFF !important;
+        background: #B7C4CF;
+ }
+
+#hr1Event {
+    width: 100%;
+    border-style: solid;
+    color: #9E7676;
+    border-width: 2px;
+}
+#hr2Event {
+    width: 100%;
+    border-style: solid;
+    color: #FFE9A0;
+    border-width: 2px;
+}
+#hr3Event {
+    width: 100%;
+    border-style: solid;
+    color: #628E90;
+    border-width: 2px;
+}
+

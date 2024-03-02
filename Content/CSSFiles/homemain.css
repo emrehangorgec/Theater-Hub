@@ -1,0 +1,83 @@
+.welcome { 
+    background-color:#DBC5BD;
+    background-image: url("../assets/images/th2.jpg");
+    background-repeat: no-repeat;
+    background-size: 50% 150%;
+    padding: 10px;
+}
+.welcome h1{
+    font-size: 40px;
+    padding: 10%;
+    color: #ffffffb9;
+    text-align: center;   
+    text-shadow: 2px 2px 7px rgba(80, 11, 11, 0.8);
+}
+
+.mostPopularShows { 
+    background-image: linear-gradient(to right bottom, #dbc5bd, #c8b2a8, #b5a094, #a28e80, #8f7c6d); 
+    padding: 10px;
+}
+.mostPopularShows h2{
+    font-size: 40px;
+    padding: 5%;
+    color: #ffffffb9;
+    text-align: center;   
+    text-shadow: 2px 2px 7px rgba(80, 11, 11, 0.8);
+}
+.BoxHome{
+    margin-bottom: 50px;
+}
+
+.boxPartsHome {
+    display: inline-block;
+    width: 30%;
+    margin-left: 2%;
+    text-align: center;
+    background-color: rgba(80, 11, 11, 0.8);
+    color: wheat; 
+    border-radius: 20px;
+}
+#rjHome img {
+    height: 170px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    border-radius: 5%;
+}
+#jsHome img {
+    height: 170px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    border-radius: 5%;
+}
+#pHome img {
+    height: 170px;
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -5px;
+    margin-top: 0;
+    border-radius: 5%;
+}
+
+.buttonStyleHome {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #FFFFFF !important;
+    font-size: 15px;
+    text-shadow: 2px 1px 2px #000000;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(92, 24, 24, 0.8);
+    background: rgba(92, 24, 24, 0.8);
+}
+.buttonStyleHome:hover {
+        color: #FFFFFF !important;
+        background: #705141;
+}

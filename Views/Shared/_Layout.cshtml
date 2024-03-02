@@ -1,0 +1,99 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+    <meta name="description" content="Theater Reservation Page" />
+    <!--CSS files-->
+    <link rel="stylesheet" href="~/Content/CSSFiles/topAndBottom.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/homemain.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/bg.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/theater.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/event.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/contactUS.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/reservation.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/aboutUSmain.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/loginmain.css" />
+    <link rel="stylesheet" href="~/Content/CSSFiles/confirmation.css" />
+    <!--font-awsome-file-->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+          rel="stylesheet" />
+
+
+</head>
+
+<body id="body">
+    <!--Header-->
+    <header class="headerhome">
+        <div class="container">
+            <!--Logo-->
+
+            <a href=@Url.Action("Index","Home")><img class="logo" src="~/Content/assets/images/l.jpg" /></a>
+
+            <!--Logo Ends-->
+            <!--Nav-->
+            <nav class="nav">
+                <ul class="navitems">
+                    <li class="navitem">
+                        <a href=@Url.Action("Index","Home")><strong>Home</strong></a>
+                    </li>
+                    <li class="navitem">
+                        <a href=@Url.Action("Theater","Home")><strong>Theaters</strong></a>
+                    </li>
+                    <li class="navitem">
+                        <a href=@Url.Action("Login","Security")><strong>Events</strong></a>
+                    </li>
+                    <li class="navitem">
+                        <a href=@Url.Action("Login","Security")><strong>Reservation</strong></a>
+                    </li>
+                    <li class="navitem">
+                        <a href=@Url.Action("About","Home")><strong>About Us</strong></a>
+                    </li>
+                    <li class="navitem">
+                        <a href=@Url.Action("Contact","Home")><strong>Contact</strong></a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Nav Ends-->
+        </div>
+    </header>
+    <!--Header Ends-->
+    <!--Main-->
+
+    @RenderBody()
+    @RenderSection("Scripts", false)
+
+    <!--Main Ends-->
+    <!--Footer-->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <ul id="footer-links">
+                        <li><a href=@Url.Action("Index","Home")>Home</a></li>
+                        <li><a href=@Url.Action("About","Home")>About</a></li>
+                        <li><a href=@Url.Action("Contact","Home")>Contact</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="end">
+                   <p id="pid">All rights reserved || Designed By Group 6</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!--Footer Ends-->
+</body>
+</html>
